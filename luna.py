@@ -53,8 +53,8 @@ async def type_and_send(message):
 @luna.on_message(filters.command("repo") & ~filters.edited)
 async def repo(_, message):
     await message.reply_text(
-        "[GitHub](https://github.com/thehamkercat/LunaChatBot)"
-        + " | [Group](t.me/PatheticProgrammers)",
+        "¯\_(ツ)_/¯ ➜ [My Owner Channel](https://t.me/AnimeListUp)"
+        + " | [Aɴιмє Grσυρ](t.me/AnimeListChat)",
         disable_web_page_preview=True,
     )
 
@@ -82,7 +82,7 @@ async def chat(_, message):
             return
     else:
         match = re.search(
-            "[.|\n]{0,}luna[.|\n]{0,}",
+            "[.|\n]{0,}texas[.|\n]{0,}",
             message.text.strip(),
             flags=re.IGNORECASE,
         )
@@ -109,7 +109,7 @@ async def main():
     print(
         """
 -----------------
-| Luna Started! |
+| Texas Started! |
 -----------------
 """
     )
